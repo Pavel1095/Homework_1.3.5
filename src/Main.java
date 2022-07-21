@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
             //Задание 5
-        int monthOfYearNumber = 1;
+        int monthOfYearNumber = 13;
 
         switch (monthOfYearNumber) {
             case 1:
@@ -41,7 +41,7 @@ public class Main {
                 System.out.println("зима");
                 break;
             default:
-                System.out.println("такого месяца ен существует.");
+                System.out.println("такого месяца не существует.");
         }
     }
 }
